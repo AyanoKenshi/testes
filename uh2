@@ -1,0 +1,9 @@
+digite_a_idade = int(input("Usuario insira sua idade: "))
+digite_o_pais = str(input("Usuario insira seu pais: "))
+idade = 18
+pais = "brasil" 
+#verificar a idade e o pais de origem do visitante
+if digite_a_idade >= 18 and digite_o_pais == "brasil":
+    print("acesso permitido")
+else:
+    print("acesso revogado")
